@@ -67,6 +67,7 @@
         </div>
     </div>
   </header>
+  <hr class="espacios">
   <!-- sidebar -->
    <div class="layout contenedor">
     <!-- sidebar izquierda -->
@@ -75,17 +76,17 @@
         <img src="img/mrgumi-500x500.jpg" alt="" class="imagen__fondo">
         <div class="sidebar__info">
           <img src="img/mikasa-500x500.jpg" alt="" class="imagen__perfil">
-          <h1>Luisa</h1>
-          <h3>Mantenida</h3>
+          <h1 class="titulo__info">Luisa Ramos</h1>
+          <h3 class="subtitulo__info">Mantenida</h3>
           <ul class="items__lista">
             <li class="item__texto"> Your profile views 
-              <span>0</span>
+              <span class="cantidad__notifi">20</span>
             </li>
             <li class="item__texto"> Your post views 
-              <span>0</span>
+              <span class="cantidad__notifi">20</span>
             </li>
             <li class="item__texto"> Your connections 
-              <span>0</span>
+              <span class="cantidad__notifi">20</span>
             </li>
           </ul>
         </div>
@@ -101,54 +102,69 @@
             <div class="sidebar__actividad">
               <h3 class="titulo__actividad">Recent</h3>
               <a class="item__actividad" href="#">
-                <i class='icono__recent bx bx-time'> web developer</i>
+                <i class='icono__interaccion bx bx-time'></i><span>  Web Developer </span> 
               </a>
               <a class="item__actividad" href="#">
-                <i class='icono__recent bx bx-time'> User Interface </i>
+                <i class='icono__interaccion bx bx-time'></i><span>  User Interface </span> 
               </a>
               <a class="item__actividad" href="#">
-                <i class='icono__recent bx bx-time'> Online Learning </i>
+                <i class='icono__interaccion bx bx-time'></i><span>  Online Learning </span> 
               </a>
               <a class="item__actividad" href="#">
-                <i class='icono__recent bx bx-time'> Learn Online </i>
+                <i class='icono__interaccion bx bx-time'> </i><span>  Learn Online </span> 
               </a>
               <a class="item__actividad" href="#">
-                <i class='icono__recent bx bx-time'></i> <span> Code Better</span> 
+                <i class='icono__interaccion bx bx-time'></i><span> Code Better</span> 
               </a>
               <a class="item__actividad" href="#">
-                <i class='icono__recent bx bx-time'> Group Learning </i>
+                <i class='icono__interaccion bx bx-time'> </i><span> Group Learning </span> 
               </a>
               <h3 class="titulo__actividad">Groups</h3>
               <a class="item__actividad" href="#">
-                <i class='bx bx-male-female'> Web Desing Groups  </i>
+                <i class='icono__interaccion bx bx-male-female'></i><span> Web Desing Groups </span> 
               </a>
               <a class="item__actividad" href="#">
-                <i class='bx bx-male-female'>  HTML & CSS Learners  </i>
+                <i class='icono__interaccion bx bx-male-female'></i><span> HTML & CSS Learners </span> 
               </a>
               <a class="item__actividad" href="#">
-                <i class='bx bx-male-female'>  Python & JavaScript Group  </i>
+                <i class='icono__interaccion bx bx-male-female'></i><span> Python & JavaScript Group </span> 
               </a>
               <a class="item__actividad" href="#">
-                <i class='bx bx-male-female'>  Learn Coding Online  </i>
+                <i class='icono__interaccion bx bx-male-female'> </i><span> Learn Coding Online </span> 
               </a>
               <h3 class="titulo__actividad">Hashtag</h3>
               <a class="item__actividad" href="#">
-                <i class='bx bx-hash'></i>
+                <i class='icono__interaccion bx bx-hash'></i><span> webdevelopment </span> 
               </a>
               <a class="item__actividad" href="#">
-                <i class='bx bx-hash'></i>
+                <i class='icono__interaccion bx bx-hash'></i><span> userinterface </span> 
               </a>
               <a class="item__actividad" href="#">
-                <i class='bx bx-hash'></i>
+                <i class='icono__interaccion bx bx-hash'></i><span> onlinelearning </span> 
               </a>
                 <div class="discover__link">
-                  <a href="#">Discover more</a>
+                  <a href="#" class="discover__texto">Discover more</a>
                 </div>
-            </div>
+          </div>
       </div>
     </aside>
-    <main class="content"></main>
-    <aside class="aside"></aside>
+ <!-- Content main -->
+  <main class="content">
+    <div class="creacion__post">
+      <div class="post__input">
+        <img src="img/mikasa-500x500.jpg" alt="" class="imagen__input">
+        <textarea rows="2" placeholder="Write a post" class="textarea__input"></textarea>
+      </div>
+        <div class="post__container">
+          <li class="post__lista"><a href="#"><i class='post__iconos bx bxs-camera'></i><span>photo</span></a></li>
+          <li class="post__lista"><a href="#"><i class='post__iconos bx bxs-video'></i><span>photo</span></a></li>
+          <li class="post__lista"><a href="#"><i class='post__iconos bx bx-merge'></i><span>photo</span></a></li>
+          <li class="post__lista"><a href="#">post</a></li>
+        </div>
+    </div>
+  </main>
   </div>
+
+  <aside class="aside"></aside>
 </body>
 </html>
