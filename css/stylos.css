@@ -276,7 +276,9 @@ margin: -45px 0 0 20px;
  padding: 20px 25px 10px;
   display: flex;
   align-items: flex-start;
+  border-bottom: 1px solid #ccc;
 }
+
 .imagen__input{
   width: 35px;
   border-radius: 50%;
@@ -284,7 +286,7 @@ margin: -45px 0 0 20px;
   overflow: clip;
 }
 .textarea__input{
-      width: 100%;
+    width: 100%;
     border: 0;
     outline: none;
     background: transparent;
@@ -294,25 +296,50 @@ margin: -45px 0 0 20px;
 }
 .post__container{
   display: flex;
- align-items: center;
+  align-items: center;
   justify-content: space-between;
 
-}
-.post__input{
-  border-bottom: 1px solid #ccc;
-}
-.post__lista{ 
-  list-style: none;
-  border-left: 1px solid #ccc;
+
+
 }
 .post__iconos{
     font-size: 1.4rem;
     color: #2874b1;
     margin-right: 5px;
-    border-left: 1px solid #ccc;
 }
 .post__fondo{
+  color:#888;
+  font-size: 16px;
+}
+.botones__items{
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  width: 100%;
+  height: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 13px;
+}
+.boton__item{
+  color: #fff;
   background-color: #2874b1;
+   width: 100%;
+  height: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 13px;
+}
+.botones__items--fondo-gris:hover{
+  background-color: #ccc;
+}
+.boton__item--fondo-azul:hover{
+  background-color: #ccc;
+}
+.icono__postblue{
   color: #fff;
 }
 .short__by{
@@ -377,7 +404,7 @@ margin: 5px 0 15px;
   font-size: 14px;
   margin-bottom: 15px;
 }
-.post__barrra{
+.post__barra{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -392,11 +419,59 @@ margin: 5px 0 15px;
   gap: 10px;
 }
 .noti__iconos{
+  width: 15px;
+  margin-right: -5px;
+}
+.like__users{
+  margin-left: -1px;
+}
+.comentarios__shares{
+  display: flex;
+  align-items: center;
+}
+.titulo__comentarios{
 
 }
+.post__actividad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.post__usuario{
+    display: flex;
+    align-items: center;
+}
+.foto__usuario{
+  width: 22px;
+  border-radius: 50%;
+}
+.foto__flecha{
+  width: 12px;
+  border-left: 5px;
+}
+.actividad__icono{
+  display: flex;
+  align-items: center;
+}
+.foto__icono{
+  width: 18px;
+  margin-right: 8px;
+}
+
 
 /* Aside */
 .aside{
+  grid-area: 'aside';
 
+}
+.sdiebar__noticias{
+    background-color: #fff;
+    padding: 10px 25px;
+}
+.icono__sidebar{
+  
 }
 
